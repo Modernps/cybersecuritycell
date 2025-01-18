@@ -39,7 +39,7 @@ export function Header() {
               theme === 'dark' ? 'text-white' : 'text-gray-800'
             }`}>
               <Image 
-                src="/Logo.png.png" // Update this to your logo filename
+                src="/Logo.png" // Update this to your logo filename
                 alt="CyberShakti Logo"
                 width={24}
                 height={24}
