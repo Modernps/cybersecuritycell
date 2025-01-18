@@ -46,7 +46,7 @@ const projects: Project[] = [
     description: "Spreading Awareness about CyberSecurity and How to remain safe online.",
     date: "2025-01-18",
     type: "event",
-    content: "Coming Soon",
+    content: "Cyber Jaagruti is an upcoming field event by Cyber Shakti Cell aimed at raising cybersecurity awareness among society residents in Wagholi, with a special focus on older individuals. Through interactive sessions, practical demonstrations, and real-life examples, participants will learn to identify and protect themselves from phishing scams, social engineering tactics, imposter frauds, and more. This initiative bridges the gap between technology and security, empowering individuals to navigate the digital world safely.",
     imageUrl: "/Comingsoon.png", // Update this to your image filename
     status: "upcoming"
   }

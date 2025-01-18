@@ -168,25 +168,25 @@ const teams: Team[] = [
         name: "Shreyas Kapre",
         role: "Social media Team Lead",
         quote: "Empowering individuals with digital literacy is our path to a secure future.",
-        image: "/Shreyas.png.JPG?height=300&width=300"
+        image: "/Shreyas.JPG?height=300&width=300"
       },
       {
         name: "Deepanika Sahu",
         role: "Social media Team Member",
         quote: "Empowering individuals with digital literacy is our path to a secure future.",
-        image: "/Deepanika.png.JPG?height=300&width=300"
+        image: "/Deepanika.JPG?height=300&width=300"
       },
       {
         name: "Shwetanshi Patro",
         role: "Social media Team Member",
         quote: "Empowering individuals with digital literacy is our path to a secure future.",
-        image: "/Shwetanshi.png.JPG?height=300&width=300"
+        image: "/Shwetanshi.JPG?height=300&width=300"
       },
       {
         name: "Sujal Virkhede",
         role: "Social media Team Member",
         quote: "",
-        image: "/Sujal.png.JPG?height=300&width=300"
+        image: "/Sujal.JPG?height=300&width=300"
       },
 
     ]
