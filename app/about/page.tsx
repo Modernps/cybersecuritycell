@@ -29,25 +29,25 @@ const teams: Team[] = [
         name: "Kanak Lingwat",
         role: "President",
         quote: "In the realm of cybersecurity, knowledge is not just power—it's protection.",
-        image: "/Kanak.png.JPG?height=300&width=300"
+        image: "/Kanak.JPG?height=300&width=300"
       },
       {
         name: "Rishita Kapile",
         role: "Vice President",
         quote: "Every line of code can be a fortress or a vulnerability. Choose wisely.",
-        image: "/Rishita.png.JPG?height=300&width=300"
+        image: "/Rishita.JPG?height=300&width=300"
       },
       {
         name: "Bhuvnesh Marathe",
         role: "Secretary",
         quote: "Every line of code can be a fortress or a vulnerability. Choose wisely.",
-        image: "/Bhuvanesh.png.JPG?height=300&width=300"
+        image: "/Bhuvanesh.JPG?height=300&width=300"
       },
       {
         name: "Rajiv Surgoniwar",
         role: "Treasurer",
         quote: "Every line of code can be a fortress or a vulnerability. Choose wisely.",
-        image: "/Rajiv.png.JPG?height=300&width=300"
+        image: "/Rajiv.JPG?height=300&width=300"
       }
     ]
   },
@@ -59,37 +59,37 @@ const teams: Team[] = [
         name: "Arnav Bhandarkar",
         role: "Technical Lead",
         quote: "Empowering individuals with digital literacy is our path to a secure future.",
-        image: "/Arnav.png.JPG?height=300&width=300"
+        image: "/Arnav.JPG?height=300&width=300"
       },
       {
         name: "Prabhakar Mishra",
         role: "Technical Team Member",
         quote: "In the dance of data, security leads and innovation follows.",
-        image: "/Prabhakar.png.JPG?height=300&width=300"
+        image: "/Prabhakar.JPG?height=300&width=300"
       },
       {
         name: "Abhijit More",
         role: "Technical Team Member",
         quote: "In the dance of data, security leads and innovation follows.",
-        image: "/Abhijit.png.JPG?height=300&width=300"
+        image: "/Abhijit.JPG?height=300&width=300"
       },
       {
         name: "Dhiraj More",
         role: "Community Outreach Specialist",
         quote: "In the dance of data, security leads and innovation follows.",
-        image: "/placeholder.svg?height=300&width=300"
+        image: "/lock.jpeg?height=300&width=300"
       },
       {
         name: "Sahil Thomas",
         role: "Technical Team Member",
         quote: "In the dance of data, security leads and innovation follows.",
-        image: "/placeholder.svg?height=300&width=300"
+        image: "/lock.jpeg?height=300&width=300"
       },
       {
         name: "Arman Bansal",
         role: "Technical Team Member",
         quote: "In the dance of data, security leads and innovation follows.",
-        image: "/placeholder.svg?height=300&width=300"
+        image: "/lock.jpeg?height=300&width=300"
       }
     ]
   },
@@ -120,7 +120,7 @@ const teams: Team[] = [
         name: "Ayush Chaudhary",
         role: "Content Team Lead",
         quote: "Fear the digital criminals, not enough to go crazy, but enough to not go lazy",
-        image: "/Ayush.png.JPG?height=300&width=300"
+        image: "/Ayush.JPG?height=300&width=300"
       },
       {
         name: "Anay Kamdeo",
@@ -138,25 +138,25 @@ const teams: Team[] = [
         name: "Arnav Bhandarkar",
         role: "Web Lead",
         quote: "Empowering individuals with digital literacy is our path to a secure future.",
-        image: "/Arnav.png.JPG?height=300&width=300"
+        image: "/Arnav.JPG?height=300&width=300"
       },
       {
         name: "Madhur Patil",
         role: "Full Stack Developer",
         quote: "In the dance of data, security leads and innovation follows.",
-        image: "/Madhur.png.JPG?height=300&width=300"
+        image: "/lock.jpeg?height=300&width=300"
       },
       {
         name: "Vishak Ranjan",
         role: "Front End Developer",
         quote: "In the dance of data, security leads and innovation follows.",
-        image: "/Vishak.png.JPG?height=300&width=300"
+        image: "/lock.jpeg?height=300&width=300"
       },
       {
         name: "Yash Shivakar",
         role: "Back End Developer",
         quote: "FIll",
-        image: "/Yash.png.JPG?height=300&width=300"
+        image: "/lock.jpeg?height=300&width=300"
       }
     ]
   },
@@ -180,7 +180,7 @@ const teams: Team[] = [
         name: "Shwetanshi Patro",
         role: "Social media Team Member",
         quote: "Empowering individuals with digital literacy is our path to a secure future.",
-        image: "/Shwetanshi.JPG?height=300&width=300"
+        image: "/lock.jpeg?height=300&width=300"
       },
       {
         name: "Sujal Virkhede",
@@ -202,19 +202,19 @@ const pastTeams: Team[] = [
         name: "Rashmi Deshpande",
         role: "Former President",
         quote: "Building the future of cybersecurity education.",
-        image: "/placeholder.svg?height=300&width=300"
+        image: "/lock.jpeg?height=300&width=300"
       },
       {
         name: "Mansi Jadhav",
         role: "Former Vice President",
         quote: "Creating a legacy of digital security.",
-        image: "/placeholder.svg?height=300&width=300"
+        image: "/lock.jpeg?height=300&width=300"
       },
       {
         name: "Kavin Padnekar",
         role: "Former Secretary",
         quote: "Building the future of cybersecurity education.",
-        image: "/placeholder.svg?height=300&width=300"
+        image: "/lock.jpeg?height=300&width=300"
       }
     ]
   },
