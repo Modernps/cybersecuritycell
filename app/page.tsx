@@ -28,7 +28,7 @@ export default function Page() {
         transition={{ duration: 0.5, delay: 0.2 }}
       >
         <motion.h1 
-          className={`text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold tracking-wide text-shadow-glow ${
+          className={`text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold tracking-wide  ${
             theme === 'dark' ? 'text-white' : 'text-gray-800'
           }`}
           initial={{ opacity: 0 }}
@@ -77,7 +77,9 @@ export default function Page() {
             size="lg" 
             className="bg-purple-primary hover:bg-purple-secondary text-white font-press-start-2p text-xs sm:text-sm px-4 sm:px-6 py-3 sm:py-4 transition-all duration-300 shadow-lg hover:shadow-purple-500/20 border border-purple-600 hover:border-purple-400 transform hover:-translate-y-1 hover:scale-105"
           >
-            <Link href="/projects" className="flex items-center gap-3">
+            <Link href="/projects" 
+                className={`flex items-center gap-3 text-[currentColor] ${theme === 'dark' ? 'text-white' : 'text-gray-800'}`}
+>
               Explore Our Projects
               <ArrowRight className="w-4 h-4" />
             </Link>
@@ -116,7 +118,9 @@ export default function Page() {
             asChild 
             className="bg-purple-primary hover:bg-purple-secondary text-white font-press-start-2p text-[10px] sm:text-xs px-4 sm:px-6 py-2 sm:py-3 rounded-md shadow-lg hover:shadow-purple-500/20 transition-all duration-300 w-full sm:w-auto mt-4 sm:mt-0 border border-purple-600 hover:border-purple-400 transform hover:-translate-y-1 hover:scale-105"
           >
-            <Link href="/learning" className="flex items-center gap-2">
+            <Link href="/learning" 
+                className={`flex items-center gap-2 text-[currentColor] ${theme === 'dark' ? 'text-gray-200' : 'text-gray-600'}`}
+>
               Start Learning
               <GraduationCap className="w-4 h-4" />
             </Link>
