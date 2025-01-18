@@ -119,17 +119,78 @@ const teams: Team[] = [
       {
         name: "Ayush Chaudhary",
         role: "Content Team Lead",
-        quote: "Simplifying complex security concepts is the key to widespread digital safety.",
+        quote: "Fear the digital criminals, not enough to go crazy, but enough to not go lazy",
         image: "/Ayush.png.JPG?height=300&width=300"
       },
       {
         name: "Anay Kamdeo",
         role: "Content Team Member",
         quote: "Clear communication is our first line of defense in the cyber world.",
-        image: "/placeholder.svg?height=300&width=300"
+        image: "/Anay.JPG?height=300&width=300"
       }
     ]
   },
+  {
+    name: "Web Development Team",
+    description: "Our digital literacy team is dedicated to empowering individuals with the knowledge and skills to navigate the digital world safely.",
+    members: [
+      {
+        name: "Arnav Bhandarkar",
+        role: "Web Lead",
+        quote: "Empowering individuals with digital literacy is our path to a secure future.",
+        image: "/Arnav.png.JPG?height=300&width=300"
+      },
+      {
+        name: "Madhur Patil",
+        role: "Full Stack Developer",
+        quote: "In the dance of data, security leads and innovation follows.",
+        image: "/Madhur.png.JPG?height=300&width=300"
+      },
+      {
+        name: "Vishak Ranjan",
+        role: "Front End Developer",
+        quote: "In the dance of data, security leads and innovation follows.",
+        image: "/Vishak.png.JPG?height=300&width=300"
+      },
+      {
+        name: "Yash Shivakar",
+        role: "Back End Developer",
+        quote: "FIll",
+        image: "/Yash.png.JPG?height=300&width=300"
+      }
+    ]
+  },
+  {
+    name: "Social Media Team",
+    description:  "CyberSakti empowers students with practical cybersecurity knowledge and real-world skills to stay safe online.",
+    members : [
+      {
+        name: "Shreyas Kapre",
+        role: "Social media Team Lead",
+        quote: "Empowering individuals with digital literacy is our path to a secure future.",
+        image: "/Shreyas.png.JPG?height=300&width=300"
+      },
+      {
+        name: "Deepanika Sahu",
+        role: "Social media Team Member",
+        quote: "Empowering individuals with digital literacy is our path to a secure future.",
+        image: "/Deepanika.png.JPG?height=300&width=300"
+      },
+      {
+        name: "Shwetanshi Patro",
+        role: "Social media Team Member",
+        quote: "Empowering individuals with digital literacy is our path to a secure future.",
+        image: "/Shwetanshi.png.JPG?height=300&width=300"
+      },
+      {
+        name: "Sujal Virkhede",
+        role: "Social media Team Member",
+        quote: "",
+        image: "/Sujal.png.JPG?height=300&width=300"
+      },
+
+    ]
+  }
 ];
 
 const pastTeams: Team[] = [
