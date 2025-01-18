@@ -50,7 +50,7 @@ export function ExpandableArticle({ project }: ExpandableArticleProps) {
             >
               <div className="mt-4 space-y-4">
                 <Image
-                  src={`/images/${project.imageUrl}`}
+src={project.imageUrl}
                   alt={project.title}
                   width={1350}
                   height={600}

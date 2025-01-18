@@ -20,16 +20,16 @@ const projects: Project[] = [
     date: "2024-03-15",
     type: "event",
     content: "Kali-Yug is our flagship cybersecurity event, bringing together experts from around the world to discuss the latest trends, threats, and defenses in the digital realm. This year's event will feature hands-on workshops, keynote speeches from industry leaders, and networking opportunities with top professionals in the field. Don't miss this chance to enhance your skills and stay ahead of cyber threats!",
-    imageUrl: "kali-yug.jpg", // Update this to your image filename
+    imageUrl: "/Comingsoon.png", // Update this to your image filename
     status: "past"
   },
   {
     title: "Club Catalyst",
     description: "Coming soon....",
-    date: "Yet to be annouced",
+    date: "Yet to be announced",
     type: "event",
     content: "Join us for a thought-provoking symposium on AI Ethics. We'll delve into the complex moral and societal implications of artificial intelligence, discussing topics such as bias in AI algorithms, privacy concerns, and the future of work in an AI-driven world. Featuring panel discussions, interactive debates, and presentations from leading ethicists and AI researchers, this event is crucial for anyone interested in the responsible development and deployment of AI technologies.",
-    imageUrl: "club-catalyst.jpg", // Update this to your image filename
+    imageUrl: "/Comingsoon.png", // Update this to your image filename
     status: "upcoming"
   },
   {
@@ -38,7 +38,7 @@ const projects: Project[] = [
     date: "Yet to be announced",
     type: "event",
     content: "Our Quantum Computing Research project is at the forefront of exploring how quantum technologies can revolutionize cryptography. We're investigating quantum-resistant encryption methods, developing quantum key distribution protocols, and studying the potential impact of quantum computers on current cryptographic systems. This ongoing project aims to ensure the security of digital communications in the post-quantum era.",
-    imageUrl: "bootcamp.jpg", // Update this to your image filename
+    imageUrl: "/Comingsoon.png", // Update this to your image filename
     status: "past"
   },
   {
@@ -47,7 +47,7 @@ const projects: Project[] = [
     date: "2025-01-18",
     type: "event",
     content: "Coming Soon",
-    imageUrl: "jaagruti-event.jpg", // Update this to your image filename
+    imageUrl: "/Comingsoon.png", // Update this to your image filename
     status: "upcoming"
   }
 ];
@@ -116,4 +116,3 @@ export default function ProjectsPage() {
     </div>
   )
 }
-
