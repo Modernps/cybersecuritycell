@@ -1,41 +1,35 @@
 'use server'
 
-import fs from 'fs/promises'
-import path from 'path'
+import { MongoClient } from 'mongodb';
+
+const uri = 'mongodb+srv://Moldy_Monkey:0cg1GwF3CYQJS2n8@yashcluster0.2skuf.mongodb.net/?retryWrites=true&w=majority&appName=YashCluster0'; // Replace with your MongoDB connection string
+const client = new MongoClient(uri);
+const dbName = 'YashCluster0'; // Replace with your database name
+const collectionName = 'Cases'; // Replace with your collection name
 
 interface ContactFormData {
-  name: string
-  email: string
-  comment?: string
+  name: string;
+  email: string;
+  comment?: string;
 }
 
 export async function submitContactForm(data: ContactFormData) {
-  const filePath = path.join(process.cwd(), 'data', 'contacts.json')
-  
   try {
-    // Read existing data
-    let contacts = []
-    try {
-      const fileContent = await fs.readFile(filePath, 'utf-8')
-      contacts = JSON.parse(fileContent)
-    } catch {
-      // File doesn't exist or is empty, start with an empty array
-    }
+    await client.connect();
+    const database = client.db(dbName);
+    const collection = database.collection(collectionName);
 
-    // Add new contact
-    contacts.push({
+    // Insert the contact data into the MongoDB collection
+    await collection.insertOne({
       ...data,
-      id: Date.now(),
-      createdAt: new Date().toISOString()
-    })
+      createdAt: new Date().toISOString(),
+    });
 
-    // Write updated data back to file
-    await fs.writeFile(filePath, JSON.stringify(contacts, null, 2))
-
-    return { success: true }
+    return { success: true };
   } catch (error) {
-    console.error('Error saving contact:', error)
-    throw new Error('Failed to save contact')
+    console.error('Error saving contact:', error);
+    throw new Error('Failed to save contact');
+  } finally {
+    await client.close();
   }
 }
-

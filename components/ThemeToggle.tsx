@@ -24,7 +24,7 @@ const ThemeToggle: React.FC = () => {
         transition={{ type: 'spring', stiffness: 700, damping: 30 }}
       >
         {theme === 'dark' ? (
-          <Moon className="w-4 h-4 text-purple-primary" />
+          <Moon className="w-4 h-4 text-purple-500" />
         ) : (
           <Sun className="w-4 h-4 text-yellow-500" />
         )}
@@ -35,4 +35,3 @@ const ThemeToggle: React.FC = () => {
 }
 
 export default ThemeToggle
-

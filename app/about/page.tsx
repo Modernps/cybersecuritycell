@@ -245,7 +245,7 @@ export default function AboutPage() {
         transition={{ duration: 0.5, delay: 0.2 }}
         id="about-us"
       >
-        <p className="text-xs sm:text-sm md:text-base leading-relaxed text-gray-300">
+        <p className="text-xs sm:text-sm md:text-base leading-relaxed text-gray-300" >
           Cyber Shakti is a rising student-run organization at MIT-ADT dedicated to empowering students with the knowledge and skills to navigate the ever-evolving cybersecurity landscape. We host workshops, events, and competitions to foster a passionate and informed community of future cybersecurity professionals. Stay tuned for exciting initiatives and join us to become a part of the solution!
         </p>
       </motion.div>
@@ -468,4 +468,3 @@ export default function AboutPage() {
     </div>
   )
 }
-
