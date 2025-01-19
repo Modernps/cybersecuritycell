@@ -17,18 +17,27 @@ const projects: Project[] = [
   {
     title: "Kali-Yug",
     description: "Learn about the latest trends in cybersecurity and how to protect your digital assets.",
-    date: "2024-03-15",
+    date: "2024-11-12",
     type: "event",
     content: "Kali-Yug is our flagship cybersecurity event, bringing together experts from around the world to discuss the latest trends, threats, and defenses in the digital realm. This year's event will feature hands-on workshops, keynote speeches from industry leaders, and networking opportunities with top professionals in the field. Don't miss this chance to enhance your skills and stay ahead of cyber threats!",
     imageUrl: "/Comingsoon.png", // Update this to your image filename
     status: "past"
   },
   {
-    title: "Club Catalyst",
-    description: "Coming soon....",
+    title: "Xploit",
+    description: "2024-08-07",
     date: "Yet to be announced",
     type: "event",
-    content: "Join us for a thought-provoking symposium on AI Ethics. We'll delve into the complex moral and societal implications of artificial intelligence, discussing topics such as bias in AI algorithms, privacy concerns, and the future of work in an AI-driven world. Featuring panel discussions, interactive debates, and presentations from leading ethicists and AI researchers, this event is crucial for anyone interested in the responsible development and deployment of AI technologies.",
+    content: "XplOit 2024, organized by The Cyber Shakti Cell at MIT ADT University, Pune, was held on 7th August 2024. The event aimed to raise awareness about cybersecurity threats, showcase technical expertise, and discuss the legal aspects of cybercrimes. Distinguished speakers from the university shared insights on digital security, ethical hacking, and relevant laws. The event also included live demonstrations and technical sessions, encouraging collaboration to combat cyber threats effectively.",
+    imageUrl: "/Comingsoon.png", // Update this to your image filename
+    status: "past"
+  },
+  {
+    title: "Cyber Jaagruti Event",
+    description: "Spreading Awareness about CyberSecurity and How to remain safe online.",
+    date: "2025-01-18",
+    type: "event",
+    content: "Cyber Jaagruti is an upcoming field event by Cyber Shakti Cell aimed at raising cybersecurity awareness among society residents in Wagholi, with a special focus on older individuals. Through interactive sessions, practical demonstrations, and real-life examples, participants will learn to identify and protect themselves from phishing scams, social engineering tactics, imposter frauds, and more. This initiative bridges the gap between technology and security, empowering individuals to navigate the digital world safely.",
     imageUrl: "/Comingsoon.png", // Update this to your image filename
     status: "upcoming"
   },
@@ -37,19 +46,10 @@ const projects: Project[] = [
     description: "Coming soon....",
     date: "Yet to be announced",
     type: "event",
-    content: "Our Quantum Computing Research project is at the forefront of exploring how quantum technologies can revolutionize cryptography. We're investigating quantum-resistant encryption methods, developing quantum key distribution protocols, and studying the potential impact of quantum computers on current cryptographic systems. This ongoing project aims to ensure the security of digital communications in the post-quantum era.",
-    imageUrl: "/Comingsoon.png", // Update this to your image filename
-    status: "past"
-  },
-  {
-    title: "Jaagruti Event",
-    description: "Spreading Awareness about CyberSecurity and How to remain safe online.",
-    date: "2025-01-18",
-    type: "event",
-    content: "Cyber Jaagruti is an upcoming field event by Cyber Shakti Cell aimed at raising cybersecurity awareness among society residents in Wagholi, with a special focus on older individuals. Through interactive sessions, practical demonstrations, and real-life examples, participants will learn to identify and protect themselves from phishing scams, social engineering tactics, imposter frauds, and more. This initiative bridges the gap between technology and security, empowering individuals to navigate the digital world safely.",
+    content: "Details will be up soon",
     imageUrl: "/Comingsoon.png", // Update this to your image filename
     status: "upcoming"
-  }
+  },
 ];
 
 export default function ProjectsPage() {

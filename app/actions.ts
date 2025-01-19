@@ -2,7 +2,7 @@
 
 import { MongoClient } from 'mongodb';
 
-const uri = 'mongodb+srv://Moldy_Monkey:0cg1GwF3CYQJS2n8@yashcluster0.2skuf.mongodb.net/?retryWrites=true&w=majority&appName=YashCluster0'; // Replace with your MongoDB connection string
+const uri = 'mongodb+srv://Moldy_Monkey:0cg1GwF3CYQJS2n8@yashcluster0.2skuf.mongodb.net/?retryWrites=true&w=majority&appName=YashCluster0&tls=true'; // Replace with your MongoDB connection string
 const client = new MongoClient(uri);
 const dbName = 'YashCluster0'; // Replace with your database name
 const collectionName = 'Cases'; // Replace with your collection name
